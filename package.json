@@ -9,7 +9,6 @@
     "dev": "vite",
     "lint": "standard",
     "phoenix": "rm -rf ./node_modules && npm install",
-    "postinstall": "git config core.hooksPath ./git-hooks",
     "serve": "vite preview",
     "test:e2e": "npx cypress run"
   },
